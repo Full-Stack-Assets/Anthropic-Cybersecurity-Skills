@@ -1,4 +1,8 @@
-.claude/
+# Ignore .claude/ contents, but track the committed plugin-enablement config so
+# Claude Code (incl. web sessions) auto-registers the marketplace and enables the
+# cybersecurity-skills plugin.
+.claude/*
+!.claude/settings.json
 teams/
 node_modules/
 __pycache__/
