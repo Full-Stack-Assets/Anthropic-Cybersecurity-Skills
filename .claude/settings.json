@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "extraKnownMarketplaces": {
+    "anthropic-cybersecurity-skills": {
+      "source": {
+        "source": "github",
+        "repo": "Full-Stack-Assets/Anthropic-Cybersecurity-Skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "cybersecurity-skills@anthropic-cybersecurity-skills": true
+  }
+}
